@@ -1,5 +1,5 @@
 # 本项目将Jina Embedding服务请求转换为OpenAI 兼容格式
-
+[Document in English](readme-en.md)
 ## 如何运行
 
 ### 本地运行
