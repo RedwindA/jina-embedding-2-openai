@@ -1,4 +1,4 @@
-name = "jina-embedding-2-openai"  # Worker name
+name = "jina-embedding-2-openai"  # Worker Name
 main = "index.js"  
 compatibility_date = "2024-12-31"  
 
