@@ -16,3 +16,5 @@ python main.py
 Fork this project, then create a new Worker in the Cloudflare Workers console. In the Worker settings, connect to the Git repository, select your Fork, and **switch to the Worker branch**. Keep other settings as default.
 
 Push once, and Cloudflare Workers will automatically deploy your Worker. Alternatively, you can manually copy the code from index.js into the Cloudflare Workers editor and deploy it.
+
+Note that the worker's free quota is limited (10,000 requests per day). If you need more requests, it is recommended to deploy it on a server using Python.
