@@ -30,7 +30,7 @@ export default {
       const transformedBody = {
         model: env.MODEL || "jina-embeddings-v3",
         task: env.TASK || "retrieval.query",
-        late_chunking: env.LATE_CHUNKING === "true",
+        // late_chunking: env.LATE_CHUNKING === "true",
         dimensions: env.DIMENSIONS ? parseInt(env.DIMENSIONS, 10) : 1024,
         embedding_type: originalBody.encoding_format || "float",
         input: originalBody.input,
