@@ -1,0 +1,10 @@
+name = "jina-embedding-2-openai"  # Worker name
+main = "index.js"  
+compatibility_date = "2024-12-31"  
+
+# environment variables
+[vars]
+MODEL = "jina-embeddings-v3"
+TASK = "retrieval.passage"
+LATE_CHUNKING = "false"
+DIMENSIONS = "1024"
