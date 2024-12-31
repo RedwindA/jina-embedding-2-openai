@@ -8,6 +8,3 @@ MODEL = "jina-embeddings-v3"
 TASK = "retrieval.passage"
 LATE_CHUNKING = "false"
 DIMENSIONS = "1024"
-
-[observability.logs]
-enabled = true
